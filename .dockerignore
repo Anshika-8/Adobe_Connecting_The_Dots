@@ -1,0 +1,48 @@
+# === Ignore Git and metadata ===
+.git
+.gitignore
+*.md
+
+# === Ignore Python cache and virtual environments ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+.env/
+.venv/
+env/
+venv/
+
+# === Ignore model training artifacts ===
+*.onnx
+*.pt
+*.h5
+*.tflite
+*.pb
+*.sav
+
+# === Ignore notebooks and checkpoints ===
+*.ipynb
+.ipynb_checkpoints/
+
+# === Ignore OS and editor files ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Ignore input/output runtime data ===
+input/
+output/
+*.log
+
+# === Ignore build artifacts ===
+build/
+dist/
+*.egg-info/
+*.tar
+*.img
+*.container
