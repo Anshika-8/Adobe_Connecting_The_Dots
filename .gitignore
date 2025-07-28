@@ -1,0 +1,56 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+*.ipynb_checkpoints
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.env.*
+
+# === Output files ===
+/output/
+input/  # if test PDFs are not meant to be committed
+*.json
+*.csv
+*.log
+
+# === Model files ===
+*.onnx
+*.pt
+*.h5
+*.tflite
+*.pb
+*.sav
+
+# === VS Code ===
+.vscode/
+
+# === PyCharm ===
+.idea/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+*.tar
+*.img
+*.container
+docker-compose.override.yml
+
+# === Jupyter (optional) ===
+.ipynb_checkpoints/
+
+# === Build artifacts ===
+*.egg-info/
+build/
+dist/
